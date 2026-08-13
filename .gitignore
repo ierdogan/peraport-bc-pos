@@ -1,0 +1,11 @@
+# AL/BC ignore
+*.app
+.vscode/settings.json
+.alpackages/
+.snapshots/
+*.nal
+RadAjaxManager.config
+*.bak
+*.orig
+.vs/
+node_modules/

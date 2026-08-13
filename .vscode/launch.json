@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Peraport BC Sandbox",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox",
+            "tenant": "<TENANT_ID>",
+            "startupObjectId": 50100,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true
+        }
+    ]
+}

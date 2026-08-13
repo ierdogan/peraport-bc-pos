@@ -1,0 +1,27 @@
+{
+  "id": "23af5613-719a-4140-b2e0-901816482060",
+  "name": "Peraport POS",
+  "publisher": "Peraport Bilisim",
+  "version": "1.0.0.0",
+  "brief": "Retail Point of Sale solution for Business Central",
+  "description": "Mağaza kasa (POS) çözümü - Business Central için",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "application": "28.0.0.0",
+  "platform": "28.0.0.0",
+  "runtime": "14.0",
+  "target": "OnPrem",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50199
+    }
+  ],
+  "features": [
+    "TranslationFile"
+  ]
+}

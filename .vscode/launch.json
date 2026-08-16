@@ -7,7 +7,7 @@
             "name": "Peraport BC Sandbox",
             "environmentType": "Sandbox",
             "environmentName": "sandbox",
-            "tenant": "<TENANT_ID>",
+            "tenant": "ilker.erdogan@peraport.net",
             "startupObjectId": 50100,
             "startupObjectType": "Page",
             "breakOnError": "All",

@@ -3,7 +3,7 @@ codeunit 50199 "POS Tests"
     Subtype = Test;
 
     var
-        Assert: Codeunit "Library Assert";
+        Assert: Codeunit "Assert";
 
     [Test]
     procedure TestOpenSession()

@@ -29,10 +29,9 @@ codeunit 50100 "POS Mgt."
         POSSession.Modify(true);
     end;
 
-    procedure AddLine(SessionNo: Code[20]; ItemNo: Code[20]; VariantCode: Code[10]; Qty: Decimal; UnitPrice: Decimal; DiscPct: Decimal)
+    procedure AddLine(SessionNo: Code[20]; ItemNo: Code[20]; VariantCode: Code[10]; Qty: Decimal; UnitPrice: Decimal; DiscPct: Decimal; ItemDescription: Text[100])
     var
         POSLine: Record "POS Line";
-        Item: Record Item;
         LastLineNo: Integer;
     begin
         POSLine.SetRange("Session No.", SessionNo);
@@ -41,12 +40,11 @@ codeunit 50100 "POS Mgt."
         else
             LastLineNo := 0;
 
-        Item.Get(ItemNo);
         POSLine.Init();
         POSLine."Session No." := SessionNo;
         POSLine."Line No." := LastLineNo + 10000;
         POSLine."Item No." := ItemNo;
-        POSLine.Description := Item.Description;
+        POSLine.Description := ItemDescription;
         POSLine."Variant Code" := VariantCode;
         POSLine.Quantity := Qty;
         POSLine."Unit Price" := UnitPrice;

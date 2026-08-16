@@ -24,7 +24,6 @@ table 50103 "POS Terminal"
         {
             Caption = 'Location Code';
             DataClassification = CustomerContent;
-            TableRelation = Location.Code;
         }
         field(5; Active; Boolean)
         {

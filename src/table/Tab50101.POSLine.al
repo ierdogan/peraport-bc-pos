@@ -20,7 +20,6 @@ table 50101 "POS Line"
         {
             Caption = 'Item No.';
             DataClassification = CustomerContent;
-            TableRelation = Item."No.";
         }
         field(4; Description; Text[100])
         {
@@ -31,7 +30,6 @@ table 50101 "POS Line"
         {
             Caption = 'Variant Code';
             DataClassification = CustomerContent;
-            TableRelation = "Item Variant".Code where("Item No." = field("Item No."));
         }
         field(6; Quantity; Decimal)
         {

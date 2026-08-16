@@ -6,14 +6,12 @@
             "request": "launch",
             "name": "Peraport BC Sandbox",
             "environmentType": "Sandbox",
-            "environmentName": "Development",
-            "tenant": "789b0dd9-a11f-4c2a-910b-6db475475bea",
+            "environmentName": "development",
             "startupObjectId": 50100,
             "startupObjectType": "Page",
-            "breakOnError": "All",
+            "breakOnError": true,
             "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true
+            "schemaUpdateMode": "Recreate"
         }
     ]
 }

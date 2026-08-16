@@ -18,7 +18,7 @@ page 50101 "POS Card"
                 field(Status; Rec.Status) { ApplicationArea = All; Editable = false; }
                 field("Cashier ID"; Rec."Cashier ID") { ApplicationArea = All; Editable = false; }
             }
-            part(POSLines; "POS Session List")
+            part(POSLines; "POS Line Subpage")
             {
                 ApplicationArea = All;
                 SubPageLink = "Session No." = field("Session No.");

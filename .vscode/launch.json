@@ -5,17 +5,12 @@
             "type": "al",
             "request": "launch",
             "name": "Peraport BC Sandbox",
-            "server": "https://businesscentral.dynamics.com",
-            "serverInstance": "BC",
-            "authentication": "AAD",
             "environmentType": "Sandbox",
             "environmentName": "development",
             "startupObjectId": 50100,
             "startupObjectType": "Page",
-            "breakOnError": "All",
+            "breakOnError": true,
             "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "Recreate"
         }
     ]

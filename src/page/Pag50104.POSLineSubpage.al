@@ -17,6 +17,11 @@ page 50104 "POS Line Subpage"
                     ApplicationArea = All;
                     Visible = false;
                 }
+                field("Barcode"; Rec."Barcode")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Barkodu okutun veya girin; ürün otomatik doldurulur.';
+                }
                 field("Item No."; Rec."Item No.")
                 {
                     ApplicationArea = All;

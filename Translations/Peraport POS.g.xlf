@@ -13,6 +13,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table POS Line - Field Barcode - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3449534878 - Field 1650050144 - Method 2126772001 - NamedType 2420054254" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barkod bulunamadi: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Barcode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table POS Line - Field Barcode - Method OnValidate - NamedType BarcodeNotFoundErr</note>
+        </trans-unit>
         <trans-unit id="Table 3449534878 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -218,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table POS Terminal - Field Store Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2322485352 - Method 351717932 - NamedType 2420054254" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barkod bulunamadı: %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Barcode</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit POS Mgt. - Method AddLineByBarcode - NamedType BarcodeNotFoundErr</note>
+        </trans-unit>
         <trans-unit id="Page 1234962124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Point of Sale</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -242,6 +252,11 @@
           <source>POS Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page POS Line Subpage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3267194511 - Control 1650050144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barkodu okutun veya girin; ürün otomatik doldurulur.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page POS Line Subpage - Control Barcode - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2784807996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>POS Sessions</source>
